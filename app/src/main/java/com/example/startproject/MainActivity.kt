@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        val dayNumberInput = findViewById<EditText>(R.id.dayNumberInput)
+        val showDayButton = findViewById<Button>(R.id.showDayButton)
+        val dayNameText = findViewById<TextView>(R.id.dayNameText)
     }
 }
