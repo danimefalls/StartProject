@@ -12,5 +12,16 @@
         android:layout_height="wrap_content"
         android:hint="Введите номер дня (1-7)"
         android:inputType="number" />
+    <Button
+        android:id="@+id/showDayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать день недели" />
 
+    <TextView
+        android:id="@+id/dayNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
 </LinearLayout>
